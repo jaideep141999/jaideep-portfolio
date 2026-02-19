@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
-import resumePdf from '../assets/Jaideep141999_Resume.pdf';
+import { calculateExperience } from '../utils/experience';
 
 const Home = () => {
+  const exp = calculateExperience();
+  
   return (
     <div className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
       {/* Background Gradients */}
@@ -27,7 +29,7 @@ const Home = () => {
               <span className="text-gradient">Shankar</span>
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
-              Junior Frontend Developer specializing in building responsive, high-performance web applications with React.js and TypeScript.
+              Frontend Developer specializing in building responsive, high-performance web applications with React.js and TypeScript, with {exp.years} years and {exp.months} months of experience.
             </p>
           </motion.div>
 
@@ -45,8 +47,8 @@ const Home = () => {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href={resumePdf}
-              download="Jaideep_Shankar_Resume.pdf"
+              href="/Jai141999_01st_Feb__Update_Resume.pdf"
+              download="Jai141999_Jaideep_Shankar_Resume.pdf"
               className="px-8 py-3 bg-white/50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-full text-slate-700 dark:text-white font-semibold hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 flex items-center gap-2"
             >
               Download CV
@@ -89,8 +91,8 @@ const Home = () => {
               <div className="space-y-3 font-mono text-sm">
                 <div className="text-purple-600 dark:text-purple-400">const <span className="text-blue-600 dark:text-blue-400">developer</span> = <span className="text-yellow-600 dark:text-yellow-400">{'{'}</span></div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">name: <span className="text-green-600 dark:text-green-400">'G. Jaideep Shankar'</span>,</div>
-                <div className="pl-4 text-slate-600 dark:text-slate-300">role: <span className="text-green-600 dark:text-green-400">'Junior Frontend Developer'</span>,</div>
-                <div className="pl-4 text-slate-600 dark:text-slate-300">skills: <span className="text-yellow-600 dark:text-yellow-400">['React', 'TypeScript', 'Tailwind', 'Redux', 'Redux Toolkit']</span>,</div>
+                <div className="pl-4 text-slate-600 dark:text-slate-300">role: <span className="text-green-600 dark:text-green-400">'Frontend Developer'</span>,</div>
+                <div className="pl-4 text-slate-600 dark:text-slate-300">skills: <span className="text-yellow-600 dark:text-yellow-400">['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Tailwind']</span>,</div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">hardWorker: <span className="text-red-500 dark:text-red-400">true</span>,</div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">quickLearner: <span className="text-red-500 dark:text-red-400">true</span></div>
                 <div className="text-yellow-600 dark:text-yellow-400">{'}'};</div>

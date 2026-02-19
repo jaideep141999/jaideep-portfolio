@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { Code, Layout, Server, Zap } from 'lucide-react';
+import { calculateExperience } from '../utils/experience';
 
 const About = () => {
+  const exp = calculateExperience();
+  
   return (
     <div className="pt-24 min-h-screen">
       <div className="section-padding">
@@ -25,18 +28,18 @@ const About = () => {
               Professional <span className="text-cyan-600 dark:text-cyan-400">Summary</span>
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              I am a Junior Frontend Developer with 3 years of experience specializing in building responsive and high-performance web applications using React.js, TypeScript, JavaScript, Redux, and modern UI frameworks.
+              I am a Frontend Developer with {exp.years} years and {exp.months} months of experience specializing in building scalable, high-performance web applications using React.js, TypeScript, Redux Toolkit, RTK Query, and modern UI frameworks.
             </p>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              My strength lies in component-based architecture, API integration, state management, and optimizing web performance. I have successfully contributed to major government and e-commerce projects, delivering robust solutions that impact thousands of users.
+              My expertise lies in component-driven architecture, API integration, state management, and performance optimization. I have successfully delivered government portals, CRM systems, e-commerce platforms, and apartment management systems.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="glass-card p-4 rounded-lg text-center">
-                <h4 className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-1">3+</h4>
+                <h4 className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-1">{exp.totalYears}</h4>
                 <p className="text-slate-600 dark:text-slate-400 text-sm">Years Experience</p>
               </div>
               <div className="glass-card p-4 rounded-lg text-center">
-                <h4 className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-1">3</h4>
+                <h4 className="text-3xl font-bold text-cyan-600 dark:text-cyan-400 mb-1">5+</h4>
                 <p className="text-slate-600 dark:text-slate-400 text-sm">Projects Completed</p>
               </div>
             </div>

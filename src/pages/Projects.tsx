@@ -3,41 +3,67 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: 'UZVIS E-Commerce Web Application',
-    description: 'A complete mobile-responsive e-commerce platform featuring dynamic product pages, cart management, and secure checkout flow.',
-    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Axios'],
+    title: 'Apartment Management System (AMS) – Admin Panel',
+    description: 'Developing a full-featured admin panel for apartment and society management with real-time dashboards and automated billing.',
+    techStack: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS'],
     features: [
-      'Multi-step checkout (address, payment, summary)',
-      'Dynamic product pages with variant selection',
-      'Google Maps integration for address selection',
-      'Performance optimization with lazy loading'
+      'JWT authentication and persistent sessions using Redux Persist',
+      'Role-based workflows for residents, billing, complaints, amenities',
+      'Real-time dashboards for occupancy and financial insights',
+      'Automated bill generation and payment tracking',
+      'Multi-step system setup flows for society configuration'
     ],
-    // githubUrl: 'https://github.com/username/project', // Placeholder
-    // liveUrl: 'https://project-demo.com', // Placeholder
+    // Duration: Dec 2025 – Present
+  },
+  {
+    title: 'UZVIS Web Application (E-Commerce Platform)',
+    description: 'Full-scale e-commerce frontend application with dynamic product pages and a multi-step checkout flow.',
+    techStack: ['React', 'TypeScript', 'Vite', 'Axios', 'Google Maps API'],
+    features: [
+      'Mobile-responsive UI using reusable, component-based architecture',
+      'Multi-step checkout flow (address, payment, order summary)',
+      'Google Maps API integration for address selection',
+      'Backend API migration support (PHP to Java)',
+      'Performance optimization with lazy loading and memoization'
+    ],
+    // Duration: Nov 2022 – Feb 2025
   },
   {
     title: 'MOEAP Energy Management System',
-    description: 'A comprehensive dashboard for energy management with role-based access control and complex data visualization.',
-    techStack: ['React', 'TypeScript', 'Redux', 'Chart.js'],
+    description: 'A secure, role-based energy and task management system with multi-level dashboards.',
+    techStack: ['React', 'TypeScript', 'JWT', 'Role-Based Routing'],
     features: [
-      'Dashboards with tables, filtering, pagination',
-      'Multi-step task creation forms with validation',
-      'Role-based admin and user UI',
-      'JWT authentication with token management'
+      'Multi-level dashboards with tables, filters, sorting, and pagination',
+      'JWT-based authentication and role-based UI authorization',
+      'Task and complaint management workflows',
+      'Performance improvement using reusable components'
     ],
-    liveUrl: 'https://moeap.com/login',
+    liveUrl: 'https://moeap.com/login', // Duration: Mar 2025 – May 2025
   },
   {
-    title: 'TG Bharath Citizen Request Management',
-    description: 'A citizen engagement platform for tracking and managing public service requests with real-time updates.',
-    techStack: ['React', 'Tailwind CSS', 'REST API'],
+    title: 'TG Bharath – Citizen Request Management',
+    description: 'Citizen service portal for managing public service requests with advanced filters and real-time statistics.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'JWT'],
     features: [
-      'Fully responsive UI for citizens and admins',
-      'Multi-step signup with OTP validation',
-      'Real-time statistics and search filters',
-      'Citizen dashboard for tracking requests'
+      'Citizen dashboards and multi-step signup with OTP validation',
+      'Admin panel with advanced filters, search, and real-time statistics',
+      'Role-based access control (User, Admin, Management Admin, Super Admin)',
+      'Fully responsive UI across all devices'
     ],
-    liveUrl: 'https://tgbharath.com/user-login',
+    liveUrl: 'https://tgbharath.com/user-login', // Duration: Jul 2025 – Oct 2025
+  },
+  {
+    title: 'Citizen Connect – CRM Web Application',
+    description: 'A CRM platform focused on citizen engagement and service management with integrated AI Assistant UI.',
+    techStack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    features: [
+      'Grievance and request management with status tracking',
+      'Secure authentication (login, signup, forgot password)',
+      'Centralized dashboards with notifications and quick actions',
+      'Integrated community features (events, polls, announcements)',
+      'AI Assistant UI for enhanced service navigation'
+    ],
+    // Duration: Oct 2022 – Nov 2025
   }
 ];
 

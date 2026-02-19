@@ -7,15 +7,19 @@ const skillCategories = [
   },
   {
     title: 'State & Styling',
-    skills: ['Redux', 'Redux Toolkit', 'Tailwind CSS', 'Bootstrap', 'SASS']
+    skills: ['Redux Toolkit', 'RTK Query', 'Redux Persist', 'Tailwind CSS', 'Bootstrap', 'SASS']
   },
   {
     title: 'Backend & Tools',
-    skills: ['REST APIs', 'Axios', 'Git', 'VS Code', 'Postman']
+    skills: ['Core Java', 'Spring Boot (Beginner)', 'JDBC', 'Hibernate', 'REST APIs', 'Axios']
   },
   {
-    title: 'Other Technologies',
-    skills: ['Core Java', 'JDBC', 'Spring Boot (Beginner)', 'MySQL']
+    title: 'Database & Tools',
+    skills: ['MySQL', 'Git', 'VS Code', 'Postman', 'Responsive Design']
+  },
+  {
+    title: 'Development & Collaboration',
+    skills: ['Agile Methodologies', 'Team Collaboration', 'Problem Solving', 'Communication', 'Version Control']
   }
 ];
 

@@ -64,11 +64,11 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="mt-12 p-6 bg-slate-100 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/50 rounded-xl">
+            {/* <div className="mt-12 p-6 bg-slate-100 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/50 rounded-xl">
               <p className="text-slate-600 dark:text-slate-300 italic">
                 "I am currently available for freelance work and full-time opportunities. If you have a project that needs some creative touch, let's chat."
               </p>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div

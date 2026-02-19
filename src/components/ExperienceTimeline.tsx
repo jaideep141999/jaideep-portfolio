@@ -16,11 +16,36 @@ const experiences: ExperienceItem[] = [
     company: 'Uzvi Services',
     period: 'Nov 2022 – Present',
     description: [
-      'Delivered full e-commerce frontend with React and TypeScript.',
-      'Built UI for multiple government service platforms used by thousands.',
-      'Improved performance and optimized legacy components.',
-      'Collaborated with backend teams to integrate REST APIs.',
-      'Implemented responsive designs ensuring cross-browser compatibility.'
+      'Designed and developed large-scale React + TypeScript applications for government portals, CRM platforms, e-commerce systems, and admin dashboards.',
+      'Led frontend architecture and UI development for UZVIS E-Commerce, implementing reusable components and optimized checkout workflows.',
+      'Built role-based systems supporting User, Admin, Management Admin, and Super Admin access.',
+      'Developed responsive dashboards, forms, and data-driven interfaces for public service and government platforms.',
+      'Integrated REST APIs using Axios and optimized state management with Redux Toolkit & RTK Query.',
+      'Improved application performance using lazy loading, memoization, caching, and reusable component patterns.',
+      'Collaborated closely with backend teams during PHP-to-Java API migration to ensure seamless frontend integration.'
+    ]
+  },
+  {
+    id: 2,
+    role: 'Senior Frontend Developer (Projects)',
+    company: 'Citizen Connect & TG Bharath',
+    period: 'Oct 2022 – Nov 2025',
+    description: [
+      'Developed Citizen Connect CRM platform with integrated AI Assistant UI for enhanced service navigation.',
+      'Built TG Bharath citizen service portal featuring advanced filters, real-time statistics, and OTP validation.',
+      'Implemented secure authentication and role-based workflows for multiple government-focused initiatives.',
+      'Focused on high-performance, mobile-responsive interfaces using Vite and Tailwind CSS.'
+    ]
+  },
+  {
+    id: 3,
+    role: 'Education - Bachelor of Science / Tech',
+    company: 'Computer Science & Engineering',
+    period: '2018 - 2022',
+    description: [
+      'Foundational knowledge in Data Structures, Algorithms, and Web Technologies.',
+      'Completed multiple academic projects focused on frontend development and database management.',
+      'Active participation in Technical workshops and Coding competitions.'
     ]
   }
 ];
