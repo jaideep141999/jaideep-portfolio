@@ -29,7 +29,7 @@ const Home = () => {
               <span className="text-gradient">Shankar</span>
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed">
-              Frontend Developer specializing in building responsive, high-performance web applications with React.js and TypeScript, with {exp.years} years and {exp.months} months of experience.
+              Software Developer specializing in building responsive, high-performance web applications with React.js and TypeScript, and robust backends with Spring Boot. With {exp.years} years and {exp.months} months of experience.
             </p>
           </motion.div>
 
@@ -91,8 +91,8 @@ const Home = () => {
               <div className="space-y-3 font-mono text-sm">
                 <div className="text-purple-600 dark:text-purple-400">const <span className="text-blue-600 dark:text-blue-400">developer</span> = <span className="text-yellow-600 dark:text-yellow-400">{'{'}</span></div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">name: <span className="text-green-600 dark:text-green-400">'G. Jaideep Shankar'</span>,</div>
-                <div className="pl-4 text-slate-600 dark:text-slate-300">role: <span className="text-green-600 dark:text-green-400">'Frontend Developer'</span>,</div>
-                <div className="pl-4 text-slate-600 dark:text-slate-300">skills: <span className="text-yellow-600 dark:text-yellow-400">['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Tailwind']</span>,</div>
+                <div className="pl-4 text-slate-600 dark:text-slate-300">role: <span className="text-green-600 dark:text-green-400">'Software Developer'</span>,</div>
+                <div className="pl-4 text-slate-600 dark:text-slate-300">skills: <span className="text-yellow-600 dark:text-yellow-400">['React', 'Spring Boot', 'TypeScript', 'Tailwind', 'MySQL']</span>,</div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">hardWorker: <span className="text-red-500 dark:text-red-400">true</span>,</div>
                 <div className="pl-4 text-slate-600 dark:text-slate-300">quickLearner: <span className="text-red-500 dark:text-red-400">true</span></div>
                 <div className="text-yellow-600 dark:text-yellow-400">{'}'};</div>

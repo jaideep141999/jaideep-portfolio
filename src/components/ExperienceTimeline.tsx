@@ -12,7 +12,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    role: 'Frontend Developer',
+    role: 'Software Developer – React & Spring Boot',
     company: 'Uzvi Services',
     period: 'Nov 2022 – Present',
     description: [
@@ -22,7 +22,9 @@ const experiences: ExperienceItem[] = [
       'Developed responsive dashboards, forms, and data-driven interfaces for public service and government platforms.',
       'Integrated REST APIs using Axios and optimized state management with Redux Toolkit & RTK Query.',
       'Improved application performance using lazy loading, memoization, caching, and reusable component patterns.',
-      'Collaborated closely with backend teams during PHP-to-Java API migration to ensure seamless frontend integration.'
+      'Collaborated closely with backend teams during PHP-to-Java API migration to ensure seamless frontend integration.',
+      'Contributed to full-stack development in Apartment Management System: Designed RESTful APIs using Java Spring Boot and MySQL for resident integration.',
+      'Implemented input validation, request handling, and structured error responses in Spring Boot APIs.'
     ]
   },
   {

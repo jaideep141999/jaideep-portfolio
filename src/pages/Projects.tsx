@@ -5,13 +5,13 @@ const projects = [
   {
     title: 'Apartment Management System (AMS) – Admin Panel',
     description: 'Developing a full-featured admin panel for apartment and society management with real-time dashboards and automated billing.',
-    techStack: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS'],
+    techStack: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS', 'Java Spring Boot', 'MySQL'],
     features: [
+      'Full-stack development of secure admin features and backend modules for residents',
       'JWT authentication and persistent sessions using Redux Persist',
       'Role-based workflows for residents, billing, complaints, amenities',
       'Real-time dashboards for occupancy and financial insights',
-      'Automated bill generation and payment tracking',
-      'Multi-step system setup flows for society configuration'
+      'Automated bill generation and payment tracking'
     ],
     // Duration: Dec 2025 – Present
   },

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -15,14 +15,14 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-6">
-            <a
+            {/* <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 dark:text-slate-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
             >
               <Github className="w-6 h-6" />
-            </a>
+            </a> */}
             <a
               href="https://linkedin.com"
               target="_blank"

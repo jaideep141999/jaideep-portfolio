@@ -28,10 +28,10 @@ const About = () => {
               Professional <span className="text-cyan-600 dark:text-cyan-400">Summary</span>
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              I am a Frontend Developer with {exp.years} years and {exp.months} months of experience specializing in building scalable, high-performance web applications using React.js, TypeScript, Redux Toolkit, RTK Query, and modern UI frameworks.
+              I am a Software Developer with {exp.years} years and {exp.months} months of experience specializing in building scalable, high-performance web applications using React.js and modern UI frameworks, with robust backend integrations using Java and Spring Boot.
             </p>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              My expertise lies in component-driven architecture, API integration, state management, and performance optimization. I have successfully delivered government portals, CRM systems, e-commerce platforms, and apartment management systems.
+              My expertise lies in component-driven architecture, REST API design, state management, and performance optimization. I have successfully delivered government portals, CRM systems, e-commerce platforms, and apartment management systems.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="glass-card p-4 rounded-lg text-center">
@@ -53,9 +53,9 @@ const About = () => {
           >
             {[
               { icon: <Code className="w-6 h-6" />, title: "Frontend Development", desc: "React, TypeScript, Tailwind" },
-              { icon: <Layout className="w-6 h-6" />, title: "Responsive Design", desc: "Mobile-First Approach" },
+              { icon: <Server className="w-6 h-6" />, title: "Backend Development", desc: "Java, Spring Boot, MySQL" },
               { icon: <Zap className="w-6 h-6" />, title: "Performance", desc: "Optimization & Speed" },
-              { icon: <Server className="w-6 h-6" />, title: "API Integration", desc: "RESTful Services" },
+              { icon: <Layout className="w-6 h-6" />, title: "Responsive Design", desc: "Targeted UI/UX" },
             ].map((item, index) => (
               <div key={index} className="glass-card p-6 rounded-xl hover:-translate-y-1 transition-transform duration-300">
                 <div className="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center text-cyan-600 dark:text-cyan-400 mb-4">
