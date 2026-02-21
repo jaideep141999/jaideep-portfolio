@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { calculateExperience } from '../utils/experience';
+import resumePdf from '../assets/Jaideep141999_Resume_V1.pdf';
 
 const Home = () => {
   const exp = calculateExperience();
@@ -47,8 +48,8 @@ const Home = () => {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="/Jai141999_01st_Feb__Update_Resume.pdf"
-              download="Jai141999_Jaideep_Shankar_Resume.pdf"
+              href={resumePdf}
+              download="Jaideep141999_Resume_V1.pdf"
               className="px-8 py-3 bg-white/50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-full text-slate-700 dark:text-white font-semibold hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 flex items-center gap-2"
             >
               Download CV
